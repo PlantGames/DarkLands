@@ -160,8 +160,11 @@ if(mouse_check_button_pressed(mb_left)){
 		}
 		
 	}else if(mode == 1){
+		//Start button
+		if(distance_to_point(133,716) < 64){
+			room_goto(rm_town1);
 		//Back Button
-		if(distance_to_point(890,716) < 64){
+		} else if(distance_to_point(890,716) < 64){
 			num1 = random(2);
 			num1 = round(num1);
 			mode = 0;
