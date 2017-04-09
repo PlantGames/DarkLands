@@ -183,14 +183,6 @@
             }
         },
         {
-            "Key": "8b5777f2-aa05-431a-82ac-c1777c27cfb9",
-            "Value": {
-                "id": "91499c80-2e9b-4b08-a948-fcf43af75033",
-                "resourcePath": "rooms\\rm_town1\\rm_town1.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "8572455b-96db-491f-859b-fc539adc0f96",
@@ -244,6 +236,14 @@
                 "id": "aa2cffad-46c5-43a9-aa28-a49b28b51d10",
                 "resourcePath": "fonts\\fnt_gui_large\\fnt_gui_large.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "df763911-79f1-453d-b420-503814e0ce5f",
+            "Value": {
+                "id": "65d3c845-103a-4d2b-acfe-a58929966004",
+                "resourcePath": "rooms\\rm_town1\\rm_town1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
