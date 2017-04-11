@@ -20,18 +20,18 @@ switch (mode) {
 	case 0:
 		
 		// Draw the GUI bars
-		var xpos = 48, ypos = 688, var x_offset = 219, var spr = spr_gui_bar;
+		var xpos = 88, ypos = 688, var x_offset = 219, var spr = spr_gui_bar;
 		draw_sprite(spr, 0, xpos, ypos);
 		draw_sprite(spr, 0, xpos + x_offset, ypos);
 		draw_sprite(spr, 0, xpos + (x_offset * 2), ypos);
 		draw_sprite(spr, 0, xpos + (x_offset * 3), ypos);
 		
 		// Draw the MainMenu text
-		var xpos = 133, ypos = 716;
+		var xpos = 173, ypos = 716;
 		draw_text(xpos, ypos, "NewGame");
 		draw_text(xpos + 218, ypos, "LoadGame");
-		draw_text(xpos + 322, ypos, "Options");
-		draw_text(xpos + 217, ypos, "Quit");
+		draw_text(xpos + 440, ypos, "Options");
+		draw_text(xpos + 657, ypos, "Quit");
 		
 		// Draw the Game TitleScreen
 		draw_set_font(font_large);
