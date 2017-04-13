@@ -27,6 +27,7 @@ if(right){
 	if(!place_meeting(x+spd,y,obj_solid)){
 		x += spd;
 		facing = 3;
+		facing = 3;
 	}
 }
 
