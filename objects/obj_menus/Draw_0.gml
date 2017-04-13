@@ -1,1 +1,1 @@
-menu_draw();
+scr_menu_draw();
